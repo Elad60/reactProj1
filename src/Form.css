@@ -1,0 +1,63 @@
+/* General styling */
+.user-Form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #5b9bd5;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 4px;
+  }
+  
+  /* Styling for the error message */
+  p {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Message under grade input */
+  .grade-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #2ecc71;
+  }
+  
