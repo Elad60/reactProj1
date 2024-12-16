@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.button-container {
+  margin-bottom: 20px; /* Add space below the button background */
+}
+
+.form-container {
+  margin-bottom: 20px; /* Add space below the form */
+}
+
+.table-container {
+  margin-top: 20px; /* Add space above the table */
+}
+
